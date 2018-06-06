@@ -8,13 +8,13 @@ Dates and formatting can become tricky, so I added a test (`npm run test`).
 
 ## Usage
 ```js
-const format = require('log-format');
+const format = require('@marius321967/log-format');
 const log_message = format('error', 'An error occurred');
 ```
 
 To use a custom date:
 ```js
-const format = require('log-format').fn;
+const format = require('@marius321967/log-format').fn;
 const date = moment('1995-12-25');
 const log_message = format(date, 'error', 'An error occurred');
 ```
