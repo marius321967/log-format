@@ -1,0 +1,29 @@
+{
+  "name": "log-format",
+  "version": "1.0.0",
+  "description": "Log message formatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marius321967/log-format.git"
+  },
+  "keywords": [
+    "log",
+    "formatter"
+  ],
+  "author": "Marius D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marius321967/log-format/issues"
+  },
+  "homepage": "https://github.com/marius321967/log-format#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
