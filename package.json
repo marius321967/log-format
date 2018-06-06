@@ -1,5 +1,5 @@
 {
-  "name": "log-format",
+  "name": "@marius321967/log-format",
   "version": "1.0.0",
   "description": "Log message formatter",
   "main": "index.js",
