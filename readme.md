@@ -7,6 +7,9 @@ This formatter is reused in several of my node services, perhaps you will find i
 Dates and formatting can become tricky, so I added a test (`npm run test`).
 
 ## Usage
+Install: `npm i --save @marius321967/log-format`.
+
+Format a log entry with current time:
 ```js
 const format = require('@marius321967/log-format');
 const log_message = format('error', 'An error occurred');
